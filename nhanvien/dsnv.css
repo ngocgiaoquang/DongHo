@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+body{
+    background: rgb(254 198 212);
+    font-family: Arial;
+   
+}
+
+/*dshd*/
+.tieude{
+    text-align: center;
+}
+.item {
+    background-color: #ffb8c9;
+    margin-top: 1%;
+}
+/*menu*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    background: #ffb8c9;
+    width: 100%;
+  
+}
+li{
+            float: left;
+            font-size: 19px;
+}
+li a, .menu-btn{
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+}
+li a:hover, .menu:hover .menu-btn{
+            color: rgb(255, 110, 110);
+            transition: 1s;
+}
+.menu{
+    display: inline-block;
+    cursor: pointer;
+}
+.menu-content{
+            display: none;
+            background-color: #fec6d4;
+            min-width: 200px;
+            z-index: 999;
+            position: fixed;
+}
+.menu-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+}
+.menu-content a:hover {background-color: #f1f1f1;}
+.menu:hover .menu-content{
+            display: block;
+}
+.khung_menu{
+    height: 54px;
+    width: 100%;
+    margin: auto;
+    top: 0;
+}
